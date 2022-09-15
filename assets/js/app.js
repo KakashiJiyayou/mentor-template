@@ -10866,7 +10866,7 @@ $(function(){
         var dataTable = jQuery(".datatable-wrapper");
         if (dataTable.length > 0) {
             $('#datatable').DataTable({
-                "bLengthChange": false,
+                "bLengthChange": true,
                 "searching": false,
                 "bPaginate":true,
                 "bSortable": true
@@ -14263,5 +14263,6 @@ $(document).ready(function() {
       $('.mobile-toggle').on('click', function() {
         $('body').toggleClass('sidebar-toggled');
       });
+     
 
 })(window, document, window.jQuery);
