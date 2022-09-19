@@ -41138,11 +41138,20 @@ table.dataTable thead .sorting_desc_disabled:before {
 }
 
 .title_input {
+    width: 90%;
+    border: 1px solid #dbdddf;
+    border-radius: 5px;
+    padding: 5px 10px;
+    /* margin-bottom: 20px; */
+    font-size: 14px;
+    font-weight: 300;
+}
+.option_input{
     width: 100%;
     border: 1px solid #dbdddf;
     border-radius: 5px;
     padding: 5px 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 14px;
     font-weight: 300;
 }
@@ -41273,6 +41282,15 @@ input[type="file"] {
     border: 1px solid #dbdddf;
     background: #fff;
     padding: 5px 15px;
+}
+.flex_input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.va{
+    margin-left: 15px;
 }
 
 
