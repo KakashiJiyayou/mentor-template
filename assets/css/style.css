@@ -41120,8 +41120,10 @@ table.dataTable thead .sorting_desc_disabled:before {
 /* new  */
 /* new css  */
 .product_upload{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .title_box {
     padding: 20px;
