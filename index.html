@@ -507,7 +507,11 @@
                                     <li> <a href='javascript:void(0);' onclick="product()">Product</a> </li>
                                     <li> <a href='javascript:void(0);' onclick="product_view()">Product View</a> </li>
                                     <li> <a href='javascript:void(0);' onclick="product_upload()">Product upload</a> </li>
-
+                                    <li> <a href='javascript:void(0);' onclick="view_delivery_personal_information()">View delivery  information</a> </li>
+                                    <li> <a href='javascript:void(0);' onclick="delivery_person_statistical_data()">Delivery person data</a> </li>
+                                    <li> <a href='javascript:void(0);' onclick="location_upload_area()">Location upload area</a> </li>
+                                    <li> <a href='javascript:void(0);' onclick="location_view()">Location view</a> </li>
+                                    <li> <a href='javascript:void(0);' onclick="brand_upload()">Brand upload</a> </li>
 
 
                                   
@@ -1421,6 +1425,42 @@
             console.log("checking  product upload");
             $("#main").load("product_upload.html");
         }
+
+
+        function view_delivery_personal_information(){
+            
+            console.log("checking  view delivery personal information");
+            $("#main").load("view_delivery_personal_information.html");
+        }
+        
+
+        function delivery_person_statistical_data(){
+            
+            console.log("  checking delivery person statistical data");
+            $("#main").load("delivery_person_statistical_data.html");
+        }
+
+
+        function location_upload_area(){
+            
+            console.log("  checking location upload area");
+            $("#main").load("location_upload_area.html");
+        }
+
+
+        function location_view(){
+            
+            console.log("  checking location view");
+            $("#main").load("location_view.html");
+        }
+        
+
+        function brand_upload(){
+            
+            console.log("  checking  brand upload");
+            $("#main").load("brand-upload.html");
+        }
+     
 
      
 
